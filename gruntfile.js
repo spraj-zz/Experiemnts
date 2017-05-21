@@ -43,8 +43,8 @@ module.exports = function(grunt) {
   });
   // load pluggins
   grunt.loadNpmTasks('grunt-contrib-connect');
- grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   
   grunt.registerTask('default', [  'connect', 'watch']);
-
+	// Pending : add the build for dev and prod
 };
